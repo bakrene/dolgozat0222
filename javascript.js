@@ -2,6 +2,7 @@ var gomb;
 var select;
 var barca;
 var boris;
+var pontszam = 0;
 
 function elso()
 {
@@ -29,8 +30,19 @@ function negyedik()
     console.log(barca);
 }
 
-function otodik(){
+function otodik()
+{
     var otodik = documnet.getElementById("otodik");
     boris = otodik;
     console.log(boris);
+}
+
+
+function gomb(){
+
+    if(radiogomb == "28")
+    {
+      
+    }
+    
 }
